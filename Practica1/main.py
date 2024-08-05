@@ -13,19 +13,19 @@ def main():
     while opc != 'f':
         opc = menu()
         if opc == 'a':
-            print("Borrando")
+            print("-borrando")
             #borrar()
         elif opc == 'b':
-            print("Creando")
+            print("-creando")
             #crear()
         if opc == 'c':
-            print("Extrayendo")
+            print("-extrayendo")
             extraer("./Airline Dataset Updated - v2.csv")
         elif opc == 'd':
-            print("Cargando")
+            print("-cargando")
             #cargar()
         elif opc == 'e':
-            print("Consultando")
+            print("-consultando")
             #consultar()
         elif opc == 'f':
             break
