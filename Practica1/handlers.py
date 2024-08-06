@@ -142,3 +142,21 @@ def crear():
     conn.commit()
     print("-creacion exitosa")
     cursor.close()
+
+def cargar():
+    conn = connect()
+    cursor = conn.cursor()
+
+    # Llenar tablas de Dimensiones 
+    fill_table_command = """
+    """
+    # Llenar tabla de Hechos
+    fill_table_command = """
+    """
+
+    cursor.execute(fill_table_command)
+    conn.commit()
+    print("-carga exitosa")
+    cursor.close()
+    conn.close()
+    

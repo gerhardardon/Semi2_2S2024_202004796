@@ -23,7 +23,7 @@ def main():
             extraer("./Airline Dataset Updated - v2.csv")
         elif opc == 'd':
             print("-cargando")
-            #cargar()
+            cargar()
         elif opc == 'e':
             print("-consultando")
             #consultar()
