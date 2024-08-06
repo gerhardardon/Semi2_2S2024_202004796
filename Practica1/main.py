@@ -14,10 +14,10 @@ def main():
         opc = menu()
         if opc == 'a':
             print("-borrando")
-            #borrar()
+            borrar()
         elif opc == 'b':
             print("-creando")
-            #crear()
+            crear()
         if opc == 'c':
             print("-extrayendo")
             extraer("./Airline Dataset Updated - v2.csv")
