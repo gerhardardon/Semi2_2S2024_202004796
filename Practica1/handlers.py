@@ -31,6 +31,29 @@ def extraer(path):
         """
     cursor.execute(bulk_insert_command)
     conn.commit()
+    print("-extraccion exitosa")
+
+    # Limpiar data
+    # Eliminar duplicados
+    clean_data_command = """
+        WITH CTE AS (
+    SELECT *,
+           ROW_NUMBER() OVER (PARTITION BY PassID ORDER BY (SELECT NULL)) AS rn
+    FROM Passengers
+    )
+    DELETE FROM CTE
+    WHERE rn > 1;
+    """
+
+    # Eliminar null
+    clean_data_command = """
+        DELETE FROM temp
+        WHERE PassID IS NULL OR FName IS NULL OR LName IS NULL OR Gender IS NULL OR Age IS NULL OR Nationality IS NULL OR AirportName IS NULL OR AirportCountry IS NULL OR CountryName IS NULL OR AirportContinent IS NULL OR Continents IS NULL OR DepartureDate IS NULL OR ArrivalAirport IS NULL OR Pilotname IS NULL OR FlightStatus IS NULL
+    """
+    cursor.execute(clean_data_command)
+    conn.commit()
+    print("-limpieza exitosa")
+
     cursor.close()
     conn.close()
-    print("-extraccion exitosa")
+    
