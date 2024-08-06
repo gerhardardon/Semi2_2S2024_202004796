@@ -10,7 +10,6 @@ def connect():
     connectionString = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD}'
     try:
         with pyodbc.connect(connectionString) as conn:
-            print("-conexion exitosa")
             return conn
     except Exception as e:
         print(f'Error: {e}')
