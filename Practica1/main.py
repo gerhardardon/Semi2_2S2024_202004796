@@ -26,7 +26,7 @@ def main():
             cargar()
         elif opc == 'e':
             print("-consultando")
-            #consultar()
+            consultar()
         elif opc == 'f':
             break
 

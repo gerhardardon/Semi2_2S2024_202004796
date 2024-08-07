@@ -1,0 +1,10 @@
+USE Practica1;
+
+SELECT COUNT(*) FROM Pasenger;
+SELECT COUNT(*) FROM Airport;
+SELECT COUNT(*) FROM Country;
+SELECT COUNT(*) FROM Continent;
+SELECT COUNT(*) FROM Flight;
+SELECT COUNT(*) FROM Hechos;
+
+GO

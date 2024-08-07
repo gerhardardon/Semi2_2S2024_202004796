@@ -172,6 +172,26 @@ def cargar():
     FROM temp;
     """
     # Llenar tabla de Hechos
+    fill_table_command += """
+    INSERT INTO Hechos (PassID, AirportID, CountryID, ContinentID, FlightID)
+    SELECT 
+        t.PassID,
+        a.AirportID,
+        c.CountryID,
+        co.ContinentID,
+        f.FlightID
+    FROM 
+        temp t
+    JOIN 
+        Airport a ON t.AirportName = a.AirportName
+    JOIN 
+        Country c ON t.AirportCountry = c.AirportCountry AND t.CountryName = c.CountryName
+    JOIN 
+        Continent co ON t.AirportContinent = co.AirportContinent AND t.Continents = co.Continents
+    JOIN 
+        Flight f ON t.DepartureDate = f.DepartureDate AND t.ArrivalAirport = f.ArrivalAirport AND t.PilotName = f.PilotName AND t.FlightStatus = f.FlightStatus;
+    
+    """
     
 
     cursor.execute(fill_table_command)
@@ -179,3 +199,6 @@ def cargar():
     print("-carga exitosa")
     cursor.close()
     conn.close()
+
+def consultar():
+    print("Consultas")
