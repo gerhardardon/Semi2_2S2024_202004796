@@ -1,7 +1,0 @@
-Changed database context to 'Practica1'.
-Gender Cant        Porcentaje                  
------- ----------- ----------------------------
-Male         49597              50.292545909934
-Female       49020              49.707454090065
-
-(2 rows affected)
