@@ -1,4 +1,5 @@
 import pyodbc
+import os
 
 SERVER = 'localhost'
 DATABASE = 'Practica1'
@@ -201,4 +202,29 @@ def cargar():
     conn.close()
 
 def consultar():
-    print("Consultas")
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query1.sql>>queries/query1.txt")
+    print("-consulta 1 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query2.sql>>queries/query2.txt")
+    print("-consulta 2 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query3.sql>>queries/query3.txt")
+    print("-consulta 3 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query4.sql>>queries/query4.txt")
+    print("-consulta 4 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query5.sql>>queries/query5.txt")
+    print("-consulta 5 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query7.sql>>queries/query7.txt")
+    print("-consulta 7 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query8.sql>>queries/query8.txt")
+    print("-consulta 8 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query9.sql>>queries/query9.txt")
+    print("-consulta 9 exitosa")
+
+    os.system("sqlcmd -S localhost -U SA -P Gerhard556@ -i sql/query10.sql>>queries/query10.txt")
+    print("-consulta 10 exitosa")

@@ -1,0 +1,10 @@
+Changed database context to 'Practica1'.
+AirportName                                                                                                                                            Count      
+------------------------------------------------------------------------------------------------------------------------------------------------------ -----------
+San Pedro Airport                                                                                                                                               43
+Santa Maria Airport                                                                                                                                             38
+B├╢blingen Flugfeld                                                                                                                                             36
+Santa Ana Airport                                                                                                                                               35
+Maliana airport                                                                                                                                                 32
+
+(5 rows affected)
