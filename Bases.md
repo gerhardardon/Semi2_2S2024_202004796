@@ -37,3 +37,15 @@ La estimacion del tamaño del resultado de la operacion depende del predicado de
 Se debe consultar en WHERE por las condiciones mas determinantes de primero, para realizar "encausamiento" y optimizar más las tablas.
 
 ---
+11/08/2024
+## DB Distribuidas 
+Tipo de db lógico, son muchas bases de datos físicas que se encuentran en en varios sitios distintos, estan comunicadas entre ellas. 
+Estpo brinda transparencia y alta dsiponibilidad de la db.
+**Homogeneas:** Cuando todas las dbs son del mismo proveedor (mysql, sql server, etc)
+**Heterogeneas:** Cuando no son del mismo proveedor 
+
+Deben tener capácidad de replicas y de fragmentacion de los datos.
+
+---
+18/08/2024
+Las dbs distribuidas deben tener autonomia y no deben depender de un sitio central. Tambien deben tener operacion continua, es decir confiabilidad y disponibilidad
