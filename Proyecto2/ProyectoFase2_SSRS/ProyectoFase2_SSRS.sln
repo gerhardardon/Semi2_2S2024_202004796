@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ProyectoFase2_SSRS", "ProyectoFase2_SSRS.rptproj", "{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.Debug|Default.ActiveCfg = Debug
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.Debug|Default.Build.0 = Debug
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.Debug|Default.Deploy.0 = Debug
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.DebugLocal|Default.Build.0 = DebugLocal
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.Release|Default.ActiveCfg = Release
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.Release|Default.Build.0 = Release
+		{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C34BD571-01EA-4982-8DB8-27EA65E5BA10}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}|ProyectoFase2_SSRS.rptproj|C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Venta_Reporte3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}|ProyectoFase2_SSRS.rptproj|solutionrelative:Venta_Reporte3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}|ProyectoFase2_SSRS.rptproj|C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Compra_Reporte1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}|ProyectoFase2_SSRS.rptproj|solutionrelative:Compra_Reporte1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}|ProyectoFase2_SSRS.rptproj|C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Compra_Reporte3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{33B36A94-EBC5-493D-8DA4-E1E53196B9E2}|ProyectoFase2_SSRS.rptproj|solutionrelative:Compra_Reporte3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Venta_Reporte3.rdl [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Venta_Reporte3.rdl",
+              "RelativeDocumentMoniker": "Venta_Reporte3.rdl",
+              "ToolTip": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Venta_Reporte3.rdl [Dise\u00F1o]*",
+              "RelativeToolTip": "Venta_Reporte3.rdl [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-28T00:25:12.469Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Compra_Reporte3.rdl [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Compra_Reporte3.rdl",
+              "RelativeDocumentMoniker": "Compra_Reporte3.rdl",
+              "ToolTip": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Compra_Reporte3.rdl [Dise\u00F1o]",
+              "RelativeToolTip": "Compra_Reporte3.rdl [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-28T00:15:19.306Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Compra_Reporte1.rdl [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Compra_Reporte1.rdl",
+              "RelativeDocumentMoniker": "Compra_Reporte1.rdl",
+              "ToolTip": "C:\\Users\\gerha\\Desktop\\Nueva carpeta\\ProyectoFase2_SSRS\\Compra_Reporte1.rdl [Dise\u00F1o]",
+              "RelativeToolTip": "Compra_Reporte1.rdl [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-28T00:15:17.798Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
